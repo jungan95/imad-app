@@ -5,12 +5,69 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articleOne={
+    title: 'Article One| Gunjan Singh',
+    heading: 'Article One',
+    date: 'Aug 6 , 2017',
+    content:  `
+                <p>
+                    Hello, my name is Gunjan Singh. Ermm.. Introduce yourself? Umm , yeah.. well.. Just a crazy girl who is still searching the purpose of her life.
+                </p>
+                <p>
+                    I am still not sure what page I would be making. I hope some new ideas would come up!
+                    Sometimes, i think i should stop all this and become a youtuber. But that needs brainstorming and all which I am too lazy to do.
+                </p>
+                <p>
+                    So, Welcome to My Spectacular and also weird World!
+                    By the way, Hello World! :D
+                </p> 
+                `
+    
+}
+
+function createTemplate(data){
+    var title=data.title;
+    var date=data.date;
+    var heading= data.heading;
+    var content= data.content;
+var htmlTemplate = `<html>
+    <head>
+        <title>
+            ${title}
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+         <link href="/ui/style.css" rel="stylesheet" />
+        
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <a href='/'>Home</a>
+            </div>
+            <hr/>
+            <h3>
+                ${heading}
+            </h3>
+            <div>
+                ${date}
+            </div>
+            <div>
+                ${content}
+            </div>
+        </div>
+    </body>
+</html>
+
+    ` ;
+    return htmlTemplate;
+}
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/article-one',function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+  res.send(createTemplate(articleOne));
 });
 
 app.get('/article-two',function (req, res) {
