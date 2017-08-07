@@ -107,8 +107,8 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-app.get('/ui/miley.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'miley.png'));
+app.get('/ui/logan.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'logan.jpg'));
 });
 
 
