@@ -5,25 +5,49 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne={
-    title: 'Article One| Gunjan Singh',
-    heading: 'Article One',
-    date: 'Aug 6 , 2017',
-    content:  `
-                <p>
-                    Hello, my name is Gunjan Singh. Ermm.. Introduce yourself? Umm , yeah.. well.. Just a crazy girl who is still searching the purpose of her life.
-                </p>
-                <p>
-                    I am still not sure what page I would be making. I hope some new ideas would come up!
-                    Sometimes, i think i should stop all this and become a youtuber. But that needs brainstorming and all which I am too lazy to do.
-                </p>
-                <p>
-                    So, Welcome to My Spectacular and also weird World!
-                    By the way, Hello World! :D
-                </p> 
-                `
-    
-}
+var articles = {
+                        'article-one':{
+                    title: 'Article One| Gunjan Singh',
+                    heading: 'Article One',
+                    date: 'Aug 6 , 2017',
+                    content:  `
+                                <p>
+                                    Hello, my name is Gunjan Singh. Ermm.. Introduce yourself? Umm , yeah.. well.. Just a crazy girl who is still searching the purpose of her life.
+                                </p>
+                                <p>
+                                    I am still not sure what page I would be making. I hope some new ideas would come up!
+                                    Sometimes, i think i should stop all this and become a youtuber. But that needs brainstorming and all which I am too lazy to do.
+                                </p>
+                                <p>
+                                    So, Welcome to My Spectacular and also weird World!
+                                    By the way, Hello World! :D
+                                </p> 
+                                `
+                    
+                                   },
+                        'article-two' :{
+                             title: 'Article Two | Gunjan Singh',
+                            heading: 'Article Two',
+                            date: 'Aug 6 , 2017',
+                            content:  `
+                                         <p>
+                                      This is my second article.           
+                                    </p>
+                                        `
+                        },
+                        'article-three':{
+                            title: 'Article Three | Gunjan Singh',
+                            heading: 'Article Three',
+                            date: 'Aug 6 , 2017',
+                            content:  `
+                                         <p>
+                                      This is my third article.           
+                                    </p>
+                                        `
+                        },
+                        };
+
+
 
 function createTemplate(data){
     var title=data.title;
@@ -66,17 +90,14 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one',function (req, res) {
-  res.send(createTemplate(articleOne));
+app.get('/:articleName',function (req, res) {
+    //articleName==article-one
+    //articles[articleName]={} content object for article one
+    var articleName= req.params.articleName;
+  res.send(createTemplate(articles[articleName]));
 });
 
-app.get('/article-two',function (req, res) {
-     res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
 
-app.get('/article-three',function (req, res) {
-     res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
