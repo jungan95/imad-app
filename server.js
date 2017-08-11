@@ -27,7 +27,7 @@ var articles = {
                     
                                    },
                         'article-two' :{
-                            background:"http://mac.h-cdn.co/assets/15/33/1600x800/landscape-1439487648-miley-cyrus-marie-claire.jpg",
+                            background:"https://pmcvariety.files.wordpress.com/2016/10/miley-cyrus-variety-warwick-saint.jpg?w=1000&h=563&crop=1",
                              title: 'Article Two | Gunjan Singh',
                             heading: 'Article Two',
                             date: 'Aug 6 , 2017',
