@@ -27,7 +27,7 @@ var articles = {
                     
                                    },
                         'article-two' :{
-                            background:"http://junkee.com/wp-content/uploads/2017/06/miley-malibu-11may17.jpg",
+                            background:"http://digitalspyuk.cdnds.net/13/32/1600x800/landscape_showbiz-miley-cyrus-notion-2.jpg",
                              title: 'Article Two | Gunjan Singh',
                             heading: 'Article Two',
                             date: 'Aug 6 , 2017',
