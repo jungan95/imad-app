@@ -30,7 +30,7 @@ var articles = {
                             background:"http://digitalspyuk.cdnds.net/13/32/1600x800/landscape_showbiz-miley-cyrus-notion-2.jpg",
                              title: 'Miley Cyrus',
                             heading: 'So called "I want you back Miley" phase',
-                            date: 'Aug 6 , 2017',
+                            date: 'Aug 11 , 2017',
                             content:  `
                                          <p>
                                       This is my second article.           
@@ -41,7 +41,7 @@ var articles = {
                             background:"http://www.etonline.com/media/photo/2017/05/24330622/1280_miley_cyrus_instagram_051117.jpg",
                             title: 'Miley Cyrus',
                             heading: 'Younger Now',
-                            date: 'Aug 6 , 2017',
+                            date: 'Aug 11 , 2017',
                             content:  `
                                          <p>
                                       This is my third article.           
