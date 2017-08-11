@@ -8,9 +8,9 @@ app.use(morgan('combined'));
 var articles = {
                         'article-one':{
                     background: "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-kfaxy3_fd11df31.jpeg?region=0%2C0%2C2048%2C760",
-                    title: 'Article One| Gunjan Singh',
-                    heading: 'Article One',
-                    date: 'Aug 6 , 2017',
+                    title: 'Miley Cyrus',
+                    heading: 'How? Disney',
+                    date: 'Aug 11 , 2017',
                     content:  `
                                 <p>
                                     Hello, my name is Gunjan Singh. Ermm.. Introduce yourself? Umm , yeah.. well.. Just a crazy girl who is still searching the purpose of her life.
@@ -28,8 +28,8 @@ var articles = {
                                    },
                         'article-two' :{
                             background:"http://digitalspyuk.cdnds.net/13/32/1600x800/landscape_showbiz-miley-cyrus-notion-2.jpg",
-                             title: 'Article Two | Gunjan Singh',
-                            heading: 'Article Two',
+                             title: 'Miley Cyrus',
+                            heading: 'So called "I want you back Miley" phase',
                             date: 'Aug 6 , 2017',
                             content:  `
                                          <p>
@@ -39,8 +39,8 @@ var articles = {
                         },
                         'article-three':{
                             background:"http://www.etonline.com/media/photo/2017/05/24330622/1280_miley_cyrus_instagram_051117.jpg",
-                            title: 'Article Three | Gunjan Singh',
-                            heading: 'Article Three',
+                            title: 'Miley Cyrus',
+                            heading: 'Younger Now',
                             date: 'Aug 6 , 2017',
                             content:  `
                                          <p>
