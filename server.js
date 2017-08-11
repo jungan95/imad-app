@@ -7,6 +7,7 @@ app.use(morgan('combined'));
 
 var articles = {
                         'article-one':{
+                            backgound: "http://digitalspyuk.cdnds.net/16/27/1600x800/landscape-1467640897-mileycyrus.jpg"
                     title: 'Article One| Gunjan Singh',
                     heading: 'Article One',
                     date: 'Aug 6 , 2017',
@@ -63,7 +64,7 @@ var htmlTemplate = `<html>
          <link href="/ui/style.css" rel="stylesheet" />
         
     </head>
-    <body background="http://digitalspyuk.cdnds.net/16/27/1600x800/landscape-1467640897-mileycyrus.jpg">
+    <body background= ${background}>
         <div class="container">
             <div>
                 <a href='/'>Home</a>
