@@ -73,9 +73,11 @@ var htmlTemplate = `<html>
                 <a href='/'>Home</a>
             </div>
             <hr/>
-            <h3>
-                ${heading}
+            
+            <div class="center text-big bold">
+              <h3>  ${heading}
             </h3>
+            </div>
             <div>
                 ${date}
             </div>
