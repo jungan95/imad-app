@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articles = {
                         'article-one':{
-                            backgound: "http://digitalspyuk.cdnds.net/16/27/1600x800/landscape-1467640897-mileycyrus.jpg",
+                            backgound: "https://pmcvariety.files.wordpress.com/2016/10/miley-cyrus-variety-warwick-saint.jpg?w=1000&h=563&crop=1",
                     title: 'Article One| Gunjan Singh',
                     heading: 'Article One',
                     date: 'Aug 6 , 2017',
