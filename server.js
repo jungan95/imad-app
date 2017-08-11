@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articles = {
                         'article-one':{
-                    backgound: "http://vignette2.wikia.nocookie.net/degrassi/images/c/c6/Disney-channel-hannah-montana-miley-cyrus-miley-stewart-tv-show-Favim_com-269996.jpg/revision/latest?cb=20120319204506",
+                    background: "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-kfaxy3_fd11df31.jpeg?region=0%2C0%2C2048%2C760",
                     title: 'Article One| Gunjan Singh',
                     heading: 'Article One',
                     date: 'Aug 6 , 2017',
