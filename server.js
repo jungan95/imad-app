@@ -27,7 +27,7 @@ var articles = {
                     
                                    },
                         'article-two' :{
-                            background:"https://pmcvariety.files.wordpress.com/2016/10/miley-cyrus-variety-warwick-saint.jpg?w=1000&h=563&crop=1",
+                            background:"http://junkee.com/wp-content/uploads/2017/06/miley-malibu-11may17.jpg",
                              title: 'Article Two | Gunjan Singh',
                             heading: 'Article Two',
                             date: 'Aug 6 , 2017',
