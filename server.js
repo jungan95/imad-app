@@ -80,7 +80,7 @@ var htmlTemplate = `<html>
                 ${date}
             </div>
             <div>
-                ${content}
+               <h3> ${content}</h3>
             </div>
         </div>
     </body>
