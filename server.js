@@ -63,7 +63,7 @@ var htmlTemplate = `<html>
          <link href="/ui/style.css" rel="stylesheet" />
         
     </head>
-    <body>
+    <body background="http://digitalspyuk.cdnds.net/16/27/1600x800/landscape-1467640897-mileycyrus.jpg">
         <div class="container">
             <div>
                 <a href='/'>Home</a>
