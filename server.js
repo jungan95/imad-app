@@ -37,8 +37,16 @@ var articles = {
                             date: 'Aug 11 , 2017',
                             content:  `
                                          <p>
-                                              
+                                           In subsequent years, Cyrus sought to distance herself from her Hannah Montana persona. She cut her hair short and took to wearing edgy fashions as part of an effort to craft a new image. But no one was quite prepared for how far she would go: At the MTV Video Music Awards (VMAs) in August 2013, Cyrus stunned the audience with her raunchy performance of her single, "We Can't Stop." Around this time, she appeared nude in the video of a follow-up single, "Wrecking Ball." However, the swirling controversy seemed to bolster sales of Cyrus's fourth studio album, Bangerz, released in October 2013. Meanwhile, "Wrecking Ball" became her first U.S. single to top the pop charts, and earned her Video of the Year honors at the 2014 VMAs.   
+                                           
                                     </p>
+                                    <p>
+                                    Declaring herself as a pansexual singer, she is at the forefront of many projects that raise awareness for different things like youth homelessness and LGBT acceptance.
+                                    </p>
+                                    <p>
+                                    The Happy Hippie Foundation is a nonprofit organization founded by Miley Cyrus. Their mission is to rally young people to fight injustice facing homeless youth, LGBTQ youth and other vulnerable populations.
+                                    </p>
+                                    <p> For more information, <href>http://www.happyhippies.org/#our-work</href>
                                         `
                         },
                         'article-three':{
@@ -48,8 +56,15 @@ var articles = {
                             date: 'Aug 11 , 2017',
                             content:  `
                                          <p>
-                                      This is my third article.           
+                                            After a gap of 4 years since her 'Bangerz' album release, Miley is all set to come back with another album. In an interview with Billboard, she declared herself clean and getting back to her roots. She released a song Malibu dedicating to her love Liam Hemsworth clearing all the rumours of them getting back together. Fans could not be more excited!
+                                            
                                     </p>
+                                    
+                                    <p>
+                                    She also announced that she will releasing her new album "Younger Now" on Sept. 29.
+                                    Fans are expecting this album to be far away from hip-hop and more to be a country album.
+                                    Stay Tuned!
+                                    
                                         `
                         },
                         };
