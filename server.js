@@ -27,6 +27,7 @@ var articles = {
                     
                                    },
                         'article-two' :{
+                            background:"http://mac.h-cdn.co/assets/15/33/1600x800/landscape-1439487648-miley-cyrus-marie-claire.jpg"
                              title: 'Article Two | Gunjan Singh',
                             heading: 'Article Two',
                             date: 'Aug 6 , 2017',
@@ -37,6 +38,7 @@ var articles = {
                                         `
                         },
                         'article-three':{
+                            background:"http://www.etonline.com/media/photo/2017/05/24330622/1280_miley_cyrus_instagram_051117.jpg"
                             title: 'Article Three | Gunjan Singh',
                             heading: 'Article Three',
                             date: 'Aug 6 , 2017',
