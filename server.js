@@ -13,16 +13,20 @@ var articles = {
                     date: 'Aug 11 , 2017',
                     content:  `
                                 <p>
-                                    Hello, my name is Gunjan Singh. Ermm.. Introduce yourself? Umm , yeah.. well.. Just a crazy girl who is still searching the purpose of her life.
+                                    In 2004, Cyrus beat out 1,000 hopefuls to land the starring role of Miley Stewart on the hit Disney show Hannah Montana. The tween series features a young pop superstar (Montana) who hides her celebrity identity to be an everyday teen in real life (Stewart).
                                 </p>
                                 <p>
-                                    I am still not sure what page I would be making. I hope some new ideas would come up!
-                                    Sometimes, i think i should stop all this and become a youtuber. But that needs brainstorming and all which I am too lazy to do.
+                                   To accommodate filming, the entire family moved to Los Angeles, California, with Billy Ray joining his daughter on screen as her fictional dad-manager. Her star on the rise, Cyrus released a successful Hannah Montana soundtrack album in 2006.
                                 </p>
                                 <p>
-                                    So, Welcome to My Spectacular and also weird World!
-                                    By the way, Hello World! :D
+                                    In 2007, Cyrus's double album, Hannah Montana 2: Meet Miley Cyrus, launched a tour: "Best of Both Worlds." The concert series sold out in record time, and the show was extended by 14 dates to help placate disappointed fans. Her successful 3-D concert film collected $31.3 million during its opening weekend in February 2008.
                                 </p> 
+                                <p>
+                                Also in 2009, Cyrus released the EP The Time of Our Lives, featuring the hit singles "Party in the U.S.A." and "When I Look at You," the former being the singer's most successful song to date, selling more than 5.38 million copies and earning a spot among the best-selling singles of all time.
+                                </p>
+                                <p>
+                                Enthusiasm for Cyrus's TV alter ego remained strong for several years, as well. In April 2009, Hannah Montana: The Movie scored at the box office, bringing in more than $79 million. The young star followed that success with the release of a new album, 2010's Can't Be Tamed. That year, Cyrus also starred in the romantic drama The Last Song, a film based on a novel of the same name by Nicholas Sparks.
+                                </p>
                                 `
                     
                                    },
@@ -33,7 +37,7 @@ var articles = {
                             date: 'Aug 11 , 2017',
                             content:  `
                                          <p>
-                                      This is my second article.           
+                                              
                                     </p>
                                         `
                         },
