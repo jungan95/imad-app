@@ -2,6 +2,14 @@ body {
     font-family: sans-serif;
     
     margin-top: 75px;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
 }
 
 .center {
@@ -22,7 +30,7 @@ body {
 .container{
                 max-width: 800px;
                 margin: 0 auto;
-                color: red;
+                color: yellow;
                 font-family: sans-serif;
                 padding-top: 60px;
                 padding-left: 20px;
