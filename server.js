@@ -46,7 +46,7 @@ var articles = {
                                     <p>
                                     The Happy Hippie Foundation is a nonprofit organization founded by Miley Cyrus. Their mission is to rally young people to fight injustice facing homeless youth, LGBTQ youth and other vulnerable populations.
                                     </p>
-                                    <p> For more information, <href>http://www.happyhippies.org/#our-work</href>
+                                    <p> For more information, <a href='http://www.happyhippies.org/#our-work'></a>
                                         `
                         },
                         'article-three':{
